@@ -1,0 +1,15 @@
+﻿  FileName.c
+D:\project\Project20\Project20\FileName.c(19,8): warning C4013: “strcmp”未定义；假设外部返回 int
+D:\project\Project20\Project20\FileName.c(30,34): warning C4474: scanf_s: 格式字符串中传递的参数太多
+      D:\project\Project20\Project20\FileName.c(30,34):
+      占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  
+D:\project\Project20\Project20\FileName.c(50,14): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\project\Project20\Project20\FileName.c(50,14):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\project\Project20\Project20\FileName.c(50,14):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\project\Project20\Project20\FileName.c(50,14):
+      此参数用作缓冲区大小
+  
+  Project20.vcxproj -> D:\project\Project20\x64\Debug\Project20.exe

@@ -1,0 +1,10 @@
+﻿  FileName.c
+D:\project\Project19\Project19\FileName.c(26,10): warning C4477: “scanf_s”: 格式字符串“%s”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      D:\project\Project19\Project19\FileName.c(26,10):
+      此参数用作缓冲区大小
+  
+D:\project\Project19\Project19\FileName.c(33,10): warning C4477: “scanf_s”: 格式字符串“%s”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      D:\project\Project19\Project19\FileName.c(33,10):
+      此参数用作缓冲区大小
+  
+  Project19.vcxproj -> D:\project\Project19\x64\Debug\Project19.exe

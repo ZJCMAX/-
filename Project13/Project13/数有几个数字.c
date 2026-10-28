@@ -11,11 +11,11 @@ int main()
 		printf("there is %d number", c);
 	}
 	while (a > 0) {
-		 int d = a % 10;
+		 int d = a % 10;//取最后一位看是那个数字
 		if (d == b) {
 			c++;
 		}
-		a = a / 10;
+		a = a / 10;//去掉最后一位
 	}
 	printf("the number appears %d time", c);
 	return 0;

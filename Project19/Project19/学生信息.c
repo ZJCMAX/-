@@ -1,11 +1,11 @@
 # include <stdio.h>
 # include<string.h>
-struct student {
+struct student {//声明一个结构体
 	char name [20];
 	int age;
 	int number;
 };
-void do_change(struct student*a,struct student*b){
+void do_change(struct student*a,struct student*b){//构建函数
 	struct student temp;
     temp = *a;
 	*a = *b;
@@ -17,9 +17,9 @@ void printstudent(struct student s) {
 	printf("number:%d\n", s.number);
 }
 int main() {
-	struct student s1;
+	struct student s1;//访问结构体
 	printf("enter s1 age");
-	scanf_s("s1age%d",&s1.age);
+	scanf_s("s1age%d",&s1.age);//输入
 	printf("enter s1 number");
 	scanf_s("s1number%d",&s1.number);
 	printf("enter s1 name");

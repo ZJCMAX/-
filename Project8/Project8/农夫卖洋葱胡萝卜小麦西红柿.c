@@ -6,9 +6,9 @@ int main()
 	int c = 7;
 	int d = 8;
 	float e = 0, f = 0, g = 0, h = 0,m = 0 ;
-	float i = 0.00, j = 0.00, k = 0.00, l = 0.00;
-	while (m <= 1000) {
-		e = 0, f = 0, g = 0, h = 0;
+	float i = 0.00, j = 0.00, k = 0.00, l = 0.00;//输入初始数据和规定变量
+	while (m <= 1000) {//大循环重复直到1000元或以上
+		e = 0, f = 0, g = 0, h = 0;//每一次开始时洗掉上一次的残留
 		char ch;
 		printf("please enter the income type wheat W onion O tomato T carrot C\n");
 		scanf_s(" %c", &ch, 1);
@@ -36,7 +36,7 @@ int main()
 			printf("your income is %.2f\n", l * d);
 			h = l * d;
 		}
-		m += e + f + g + h;
+		m += e + f + g + h;//累加每一次
 	}
 	printf("income of all %f you can rest now\n",m += e+f+g+h);
 	return 0;

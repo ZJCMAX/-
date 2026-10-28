@@ -7,12 +7,12 @@ int main()
 	int d = 8;
 	int e = 0;
 	int m = 0;
-	int g = 0;
-	while (g <= 1000) {
+	int g = 0;//初始数据和变量命名
+	while (g <= 1000) {//大循环直到1000元及以上
 		char ch;
-		printf("please choice M or S");
+		printf("please choice M or S");//选择卖或不买
 		scanf_s(" %c", &ch, 1);
-		if (ch == 'M') {
+		if (ch == 'M') {//改价格
 			printf("please enter the income type wheat W onion O tomato T carrot C\n");
 			scanf_s(" %c", &ch, 1);
 			if (ch == 'W') {
@@ -32,7 +32,7 @@ int main()
 				scanf_s(" %d", &d);
 			}
 		}
-			 if (ch == 'S') {
+			 if (ch == 'S') {//卖出计算价格
 				printf("please enter the income type wheat W onion O tomato T carrot C\n");
 				scanf_s(" %c",&ch ,1);
 				printf("please enter the weight ");
@@ -45,7 +45,7 @@ int main()
 			 }
 			 else if (ch == 'T') { m = c * e; }
 		else if (ch == 'C') { m = d * e; }
-		g += m;	
+		g += m;	//累加
 	}
 	printf("income of all is %d you can rest now\n", g);
 	return 0;
